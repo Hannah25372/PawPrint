@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PawPrint.Api/PawPrint.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PawPrint.Api.Tests/PawPrint.Api.Tests.csproj" />
+  </Folder>
+</Solution>
