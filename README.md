@@ -9,7 +9,7 @@ Features
     - elevation
     - which dogs were walked
     - photos, notes
-  - Storage: Strava reportedly stores raw GPS data in S3 with NoSQL DBs for metadata - worth looking into
+  - Storage: PostgreSQL + PostGIS for metadata/routes, raw GPS tracks in S3 - see docs/walks-and-gps.md
   - Visibility set per walk (e.g. private, followers, public)
 
 - Account system
@@ -30,4 +30,4 @@ Deferred
 - Ability to advertise "job" to walk dog (borrow my doggy)
 
 Notes / to address later
-- Privacy: blur or trim start/end points of public walks so home addresses aren't exposed
+- Privacy: user-defined privacy zones clipped from public walks so home addresses aren't exposed - see docs/walks-and-gps.md
